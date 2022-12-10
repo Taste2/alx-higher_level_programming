@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 last_digit = number % 10
-pos_statement = "Last digit of {} is {} and is greater than."
+pos_statement = "Last digit of {} is {} and is greater than 5."
 zero_statement = "Last digit of {} is {} and is 0."
 else_statement = "Last digit of {} is {} and is less than 6 and not 0."
 if last_digit > 5:
